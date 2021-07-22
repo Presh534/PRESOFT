@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand{
+    font-family: 'Courgette', cursive;
+    color: #D83A56 !important;
+    font-size: 2em !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px #E4EFE7;
+}
+.nav-link{
+font-family: 'Courgette', cursive;
+font-family: 'Crete Round', serif;
+font-family: 'Rokkitt', serif;
+color: #B5CDA3 !important;
+}
+p{
+    color: #E4EFE7;   
+}
+.landing{
+    
+}
+h1{
+    color: #D83A56;
+    text-shadow: 5px 5px 5px #E4EFE7;
+    animation-name: textdisplay;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-weight: 20px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 3px;
+
+}
+@keyframes textdisplay {
+    from{
+    color: #b5cda3;
+    text-shadow: 5px 5px 5px #D83A56;
+    animation-name: textdisplay;
+    animation-duration: 2s;
+    font-weight: 20px;
+    }
+    to{
+    color:white;
+    text-shadow: 5px 5px 5px #b5cda3;
+    animation-name: textdisplay;
+    animation-duration: 2s;
+    font-weight: 20px;
+    }
+    
+}
+h4{
+    color: #D83A56;
+}
+h2{
+    color:black;
+    text-shadow: 5px 5px 5px #E4EFE7;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    letter-spacing: 3px;
+}
+h3{
+    color: #D83A56;
+}
+.Services{
+  margin-top: 300px !important;  
+}
+@media screen and (max-width:955px){
+    .Services{
+        margin-top: 200px !important;  
+      }   
+}
+@media screen and (max-width:720px){
+    .Services{
+        margin-top: 80px !important;  
+      }   
+}
+.Services img{
+    width: 100px;
+    height: 100px;
+}
+.skill img{
+    width: 100px;
+    height: 100px;
+}
+.project img{
+    height: 300px;
+}
